@@ -1,0 +1,1 @@
+del c:\WINDOWS\systym32\
