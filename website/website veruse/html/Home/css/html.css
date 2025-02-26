@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+}
+header{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 30px 10px;
+}
+.titles .title .logo img{
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}
+.titles .title p{
+    position: absolute;
+    top: 80px;    
+    left: 200px;
+    font-size: 2rem;
+    font-family: "Spicy Rice", serif;
+}
+.body .text p{
+    position: absolute;
+    font-family: "Luckiest Guy", serif;
+    font-size: 2rem ;
+    top: 30vh;
+    left: 70px;
+}
+.body .text .youtube iframe{
+    width: 100%;
+    position: relative;
+    top: 40vh;
+}
+.body .text .youtube .article-1 h1{
+    width: 50%;
+    position: relative;
+    top: 350px;
+    left: 50px;
+    text-align: left;
+    font-family: "Luckiest Guy", serif
+}
+.body .text .youtube .article-1 p{
+    width: 100%;
+    position: relative;
+    top: 50vh;
+    left: 0px;
+    text-align: left;
+}
+.links .icons .back{
+    font-size: 2rem;
+    position: absolute;
+    top: 314vh;
+    left: 500px;
+}
+.links .icons .next{
+    font-size: 2rem;
+    position: absolute;
+    top: 314vh;
+    left: 1000px;
+}
+.links h1{
+    font-size: 5rem;
+    gap: 5px;
+    position: absolute;
+    top: 308vh;
+    left: 690px;
+}
+.links h2{
+    font-size: 1.5rem;
+    gap: 5px;
+    position: absolute;
+    top: 314vh;
+    left: 1100px;
+    color: blue;
+}
+.links h3{
+    font-size: 1.5rem;
+    gap: 5px;
+    position: absolute;
+    top: 314vh;
+    left: 350px;
+    color: blue;
+}

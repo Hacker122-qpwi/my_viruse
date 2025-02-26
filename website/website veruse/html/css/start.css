@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: url(image/logo.jpg)center / cover no-repeat;
+    text-align: center;
+    position: relative;
+    display: flex;
+}
+header{
+    position: absolute;
+    width: 100%;
+    background: #a1bcb944;
+    left: 0;
+    top: 0;
+    padding: 30px 10px;
+}
+.titles .title-1 .logo p{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 20pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+.titles .title-2 .title-2-1 .menu .home{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15pt;
+}
+.titles .title-2 .title-2-1 .menu .about{
+    position: absolute;
+    top: 20px;
+    left: 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15pt;
+}
+.titles .title-2 .title-2-1 .menu .show-code-viruse{
+    position: absolute;
+    top: 20px;
+    left: 70%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15pt;
+}
+.buttons .goto-viruse-btn button{
+    outline: none;
+    border: none;
+    width: 15%;
+    position: absolute;
+    top: 10vh;
+    left: 100px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background-color: #34e515;
+    color: antiquewhite;
+    border-radius: 50vh;
+}
+.buttons .next-page button{
+    outline: none;
+    border: none;
+    width: 15%;
+    position: absolute;
+    top: 10vh;
+    left: 1200px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background-color: #34e515;
+    color: antiquewhite;
+    border-radius: 50vh;
+}

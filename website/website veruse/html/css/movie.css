@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 130vh;
+    background: #fff;
+    text-align: center;
+    position: relative;
+    display: flex;
+}
+header{
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    top: 0;
+    padding: 30px 10px;
+}
+.movie p{
+    position: absolute;
+    top: 10px;
+    left: 700px;
+    font-size: 2rem;
+}
